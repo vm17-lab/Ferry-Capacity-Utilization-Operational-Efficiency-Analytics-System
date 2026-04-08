@@ -127,7 +127,7 @@ def apply_base(fig, height=360):
 
 @st.cache_data
 def load_processed_data():
-    path = r"C:/Users/vincy/Desktop/Unified Mentor Internship/Project 2/Processed_Ferry_Tickets.csv.gz"
+    path = r"Processed_Ferry_Tickets.csv.gz"
 
     # Check if file exists; if not, create dummy data for demonstration
     if not os.path.exists(path):
